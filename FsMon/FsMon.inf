@@ -1,0 +1,109 @@
+;;;
+;;; FsMon
+;;;
+
+[Version]
+Signature   = "$Windows NT$"
+; TODO - Change the Class and ClassGuid to match the Load Order Group value, see https://msdn.microsoft.com/en-us/windows/hardware/gg462963
+; Class       = "ActivityMonitor"                         ;This is determined by the work this filter driver does
+; ClassGuid   = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}    ;This value is determined by the Load Order Group value
+Class = "ActivityMonitor"
+ClassGuid = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}
+Provider    = %ManufacturerName%
+DriverVer   = 07/04/2020,1.0.0.0
+CatalogFile = FsMon.cat
+
+[DestinationDirs]
+DefaultDestDir          = 12
+MiniFilter.DriverFiles  = 12            ;%windir%\system32\drivers
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall]
+OptionDesc          = %ServiceDescription%
+CopyFiles           = MiniFilter.DriverFiles
+
+[DefaultInstall.Services]
+AddService          = %ServiceName%,,MiniFilter.Service
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall]
+DelFiles   = MiniFilter.DriverFiles
+
+[DefaultUninstall.Services]
+DelService = %ServiceName%,0x200      ;Ensure service is stopped before deleting
+
+;
+; Services Section
+;
+
+[MiniFilter.Service]
+DisplayName      = %ServiceName%
+Description      = %ServiceDescription%
+ServiceBinary    = %12%\%DriverName%.sys        ;%windir%\system32\drivers\
+Dependencies     = "FltMgr"
+ServiceType      = 2                            ;SERVICE_FILE_SYSTEM_DRIVER
+StartType        = 3                            ;SERVICE_DEMAND_START
+ErrorControl     = 1                            ;SERVICE_ERROR_NORMAL
+LoadOrderGroup = "FSFilter Activity Monitor"
+AddReg           = FsMon.AddRegistry
+
+;
+; Registry Modifications
+;
+
+[FsMon.AddRegistry]
+HKR,,"DebugFlags",0x00010001 ,0x0
+HKR,,"SupportedFeatures",0x00010001,0x3
+HKR,"Instances","DefaultInstance",0x00000000,%DefaultInstance%
+HKR,"Instances\"%Instance1.Name%,"Altitude",0x00000000,%Instance1.Altitude%
+HKR,"Instances\"%Instance1.Name%,"Flags",0x00010001,%Instance1.Flags%
+HKR,,%TargetFolderRegName%,0x00000000,%TargetFolder%
+HKR,,%RedirectFolderRegName%,0x00000000,%RedirectFolder%
+
+;
+; Copy Files
+;
+
+[MiniFilter.DriverFiles]
+%DriverName%.sys
+
+[SourceDisksFiles]
+FsMon.sys = 1,,
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+
+;;
+;; String Section
+;;
+
+[Strings]
+; TODO - Add your manufacturer
+ManufacturerName        = "H3nklab Corporation"
+ServiceDescription      = "FsMon Mini-Filter"
+ServiceName             = "FsMon"
+DriverName              = "FsMon"
+DiskId1                 = "FsMon Device Installation Disk"
+FcMonRegistry			= "System\currentcontrolset\services\FcMon"
+
+;Instances specific information.
+DefaultInstance         = "FsMon Instance"
+Instance1.Name          = "FsMon Instance"
+; TODO - Change the altitude value, see https://msdn.microsoft.com/en-us/windows/hardware/drivers/ifs/load-order-groups-and-altitudes-for-minifilter-drivers
+Instance1.Altitude       = "410030"
+Instance1.Flags         = 0x0              ; Allow all attachments
+
+; Default settings
+TargetFolderRegName		= "TargetFolder"
+TargetFolder			= "\Device\HarddiskVolume4\Coba"
+;TargetFolder			= "\Users\henky\Desktop\Target" OK
+RedirectFolderRegName	= "RedirectFolder"
+RedirectFolder			= "\Device\Mup\w16adc\Profiles\Alih"
+;RedirectFolder			= "\Device\HarddiskVolume4\Temp"
+;RedirectFolder			= "\Users\henky\Desktop\Redirect" OK

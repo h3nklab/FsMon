@@ -1,0 +1,788 @@
+Creating file with explorer:
+----------------------------
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_SET_INFORMATION Post: \Users\henky\Desktop\coba.txt Document.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt Document.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt Document.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt Document.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt Document.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_VOLUME_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_VOLUME_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_WRITE Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_WRITE Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CLEANUP Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CLEANUP Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_VOLUME_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_VOLUME_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_VOLUME_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_VOLUME_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_WRITE Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_WRITE Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_SET_INFORMATION Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_SET_INFORMATION Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\AppData\Roaming\Microsoft\Windows\Recent\coba.txt.lnk
+
+Creating file with command prompt (echo hello > coba.txt):
+----------------------------------------------------------
+IRP_MJ_CREATE Pre, Opened name: \coba.txt
+IRP_MJ_CREATE Pre, Failed getting normalized file info: coba.txt: 0xC0000024
+IRP_MJ_CREATE Pre, Failed getting short file info: coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_WRITE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_WRITE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_SECURITY Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_READ Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_READ Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_FILE_SYSTEM_CONTROL Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_WRITE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_WRITE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_SET_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_SET_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION Post: \Users\henky\Desktop\coba.txt
+
+Renaming with explorer:
+-----------------------
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_SET_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_SET_INFORMATION Pre: Destination \contoh.txt
+IRP_MJ_SET_INFORMATION Post: \Users\henky\Desktop\contoh.t
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+
+Renaming with command prompt (ren coba.txt contoh.txt):
+-------------------------------------------------------
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_SET_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_SET_INFORMATION Pre: Destination \contoh.txt
+IRP_MJ_SET_INFORMATION Post: \Users\henky\Desktop\contoh.t
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt:Zone.Identifier
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt:Zone.Identifier
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt:Zone.Identifier: 0xC01C0005
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt:Zone.Identifier
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+
+Moving with command prompt (move coba.txt contoh.txt):
+------------------------------------------------------
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLEANUP Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_CLOSE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_QUERY_INFORMATION Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_SET_INFORMATION Pre: \Users\henky\Desktop\coba.txt
+IRP_MJ_SET_INFORMATION Pre: Destination \contoh.txt
+IRP_MJ_SET_INFORMATION Post: \Users\henky\Desktop\contoh.t
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt:Zone.Identifier
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt:Zone.Identifier
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt:Zone.Identifier: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt:Zone.Identifier
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\henky\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\Public\Desktop\coba.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Post: \Users\Public\Desktop\coba.txt
+IRP_MJ_CREATE Pre, Opened name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Normalized name: \Device\HarddiskVolume4\Users\henky\Desktop\contoh.txt
+IRP_MJ_CREATE Pre, Failed getting short file info: \Users\henky\Desktop\contoh.txt: 0xC01C0005
+IRP_MJ_CREATE Pre: Redirected to \Users\henky\Desktop\contoh.txt
+
