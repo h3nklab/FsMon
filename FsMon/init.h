@@ -42,11 +42,4 @@ LoadRegistryString(
    _In_  WCHAR             *pName,
    _Out_ PUNICODE_STRING   pusValue);
 
-NTSTATUS
-InitUnicodeFromString(
-   _In_     POOL_TYPE         poolType,
-   _Inout_  PUNICODE_STRING   pusUnicode,
-   _In_     WCHAR             *pString,
-   _In_     ULONG             tag);
-
 EXTERN_C_END

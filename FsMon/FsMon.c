@@ -963,6 +963,17 @@ FsMonGenerateFileName(
          }
       }
    }
+   if (pFilename) {
+      status = UnicodeToFixString(&pFilename->Name, &pCari);
+      if (NT_SUCCESS(status)) {
+         if (wcsstr(pCari, L"Coba")) {
+            __debugbreak();
+         }
+         else if (wcsstr(pCari, L"Alih")) {
+            __debugbreak();
+         }
+      }
+   }
 
    if (bFound) {
       /*
@@ -2089,7 +2100,7 @@ FsMonSetInfoPreOp(
          pNewRenameInfo->Flags = pRenameInfo->Flags;
          pNewRenameInfo->RootDirectory = NULL;
          pNewRenameInfo->ReplaceIfExists = pRenameInfo->ReplaceIfExists;
-         pNewRenameInfo->FileNameLength = length;
+         pNewRenameInfo->FileNameLength = (ULONG)length;
 
          RtlCopyMemory(pNewRenameInfo->FileName, pNewFileName, length);
 
@@ -2097,10 +2108,17 @@ FsMonSetInfoPreOp(
             pFltObjects->Instance,
             pFltObjects->FileObject,
             pNew,
-            length,
+            (ULONG)length,
             FileInfoClass);
 
          pData->IoStatus.Status = status;
+         DbgPrintEx(
+            DPFLTR_DEFAULT_ID,
+            0xFFFFFFFF,
+            "IRP_MJ_SET_INFORMATION Pre: Changed destination %ws -> %ws -> %ws\n",
+            pRenameInfo->FileName,
+            pNormalized,
+            pNewFileName);
 
          //__debugbreak();
       }

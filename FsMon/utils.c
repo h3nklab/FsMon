@@ -451,8 +451,8 @@ ReplaceUnicodeString(
    }
 
    if (lPos != -1) {
-      usLength = pusString->Length - pusSearch->Length + pusReplace->Length + 1;
-      pString = ExAllocatePoolWithTag(poolType, usLength * sizeof(WCHAR), FSMON_TAG);
+      usLength = pusString->Length - pusSearch->Length + pusReplace->Length;
+      pString = ExAllocatePoolWithTag(poolType, usLength, FSMON_TAG);
       if (pString == NULL) {
          status = STATUS_INSUFFICIENT_RESOURCES;
          goto Cleanup;
@@ -479,7 +479,7 @@ ReplaceUnicodeString(
       pusString->Buffer = pString;
 
       pusString->MaximumLength = usLength;
-      pusString->Length = (USHORT)(wcslen(pString) * sizeof(WCHAR));
+      pusString->Length = usLength;
    }
    else {
       status = STATUS_FAIL_CHECK;
@@ -614,5 +614,42 @@ Cleanup:
    if (pOriginalFileName) {
       ExFreePool(pOriginalFileName);
    }
+   return status;
+}
+
+
+NTSTATUS
+InitUnicodeFromString(
+   _In_     POOL_TYPE         poolType,
+   _Inout_  PUNICODE_STRING   pusUnicode,
+   _In_     WCHAR             *pString,
+   _In_     ULONG             tag)
+{
+   NTSTATUS    status = STATUS_SUCCESS;
+   USHORT      usLength = 0;
+
+   ASSERT(pusUnicode);
+   ASSERT(pString);
+
+   FreeUnicodeString(pusUnicode);
+
+   usLength = (USHORT)(wcslen(pString) * sizeof(WCHAR));
+   pusUnicode->Buffer = ExAllocatePoolWithTag(
+      poolType,
+      usLength,
+      tag);
+
+   if (pusUnicode->Buffer == NULL) {
+      status = STATUS_INSUFFICIENT_RESOURCES;
+      goto Cleanup;
+   }
+
+   RtlZeroMemory(pusUnicode->Buffer, usLength);
+   RtlCopyMemory(pusUnicode->Buffer, pString, usLength);
+
+   pusUnicode->Length = usLength;
+   pusUnicode->MaximumLength = usLength;
+
+Cleanup:
    return status;
 }

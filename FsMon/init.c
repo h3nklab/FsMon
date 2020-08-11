@@ -231,39 +231,3 @@ Cleanup:
    return status;
 }
 
-
-NTSTATUS
-InitUnicodeFromString(
-   _In_     POOL_TYPE         poolType,
-   _Inout_  PUNICODE_STRING   pusUnicode,
-   _In_     WCHAR             *pString,
-   _In_     ULONG             tag)
-{
-   NTSTATUS    status = STATUS_SUCCESS;
-   USHORT      usLength = 0;
-
-   ASSERT(pusUnicode);
-   ASSERT(pString);
-
-   FreeUnicodeString(pusUnicode);
-
-   usLength = (USHORT)(wcslen(pString) * sizeof(WCHAR));
-   pusUnicode->Buffer = ExAllocatePoolWithTag(
-      poolType,
-      usLength + sizeof(WCHAR),
-      tag);
-
-   if (pusUnicode->Buffer == NULL) {
-      status = STATUS_INSUFFICIENT_RESOURCES;
-      goto Cleanup;
-   }
-
-   RtlZeroMemory(pusUnicode->Buffer, usLength + sizeof(WCHAR));
-   RtlCopyMemory(pusUnicode->Buffer, pString, usLength);
-
-   pusUnicode->Length = usLength;
-   pusUnicode->MaximumLength = usLength + (USHORT)sizeof(WCHAR);
-
-Cleanup:
-   return status;
-}
